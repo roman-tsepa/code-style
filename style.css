@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #212121;
+  color: #f0f8ff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} /* Тело */
+
+.wrap {
+  max-width: 1200px;
+  padding: 40px 30px;
+  margin: 0 auto;
+  font-size: 24px;
+} /* Обертка */
+
+.header, .section:not(:last-child) {
+  margin-bottom: 40px;
+} /* Верх страницы + все секции, кроме последних */
+
+.title-main, .title {
+  margin-top: 0;
+  margin-bottom: 25px;
+} /* Все заголовки */
+
+.title-main {
+  text-align: center;
+} /* Главный заголовок */
+
+.text-desc {
+  margin-top: 0;
+  margin-bottom: 20px;
+} /* Все параграфы */
+
+.text-desc:last-child {
+  margin-bottom: 0;
+} /* Последние параграфы */
+
+.list, .list-nav {
+  list-style: none;
+  margin: 0;
+} /* Все списки */
+
+.list {
+  padding: 20px;
+  background-color: #9f919f;
+  color: #141414;
+} /* Списки в статье */
+
+.list-nav {
+  padding: 0;
+} /* Список навигации */
+
+.item-nav {
+  display: block;
+  padding: 20px;
+  background-color: #353535;
+} /* Элементы списка навигации */
+
+.item:not(:last-child), .item-nav:not(:last-child) {
+  margin-bottom: 20px;
+} /* Все элементы списка, кроме последних */
+
+.link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  color: #f0f8ff;
+} /* Все ссылки */
